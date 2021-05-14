@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  /* border: 1px red solid; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #7894bf;
+  color: white;
+  font-family: "Itim", cursive;
+}
+
+.main-look {
+  background-color: rgb(189, 185, 188);
+  border-radius: 4px;
+}
+h3 {
+  margin: 20px 0px 20px 0;
+  padding: 10px 0px 10px 0px;
+}
+
+input {
+  background-color: white;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 10px 5px 5px 5px;
+  margin-bottom: 8px;
+  width: 80px;
+}
+
+span {
+  color: black;
+  font-size: 30px;
+  padding: 2px 8px 2px 8px;
+}
